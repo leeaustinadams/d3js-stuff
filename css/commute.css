@@ -1,0 +1,61 @@
+path {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+  fill: black;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+
+.chart rect {
+  fill: steelblue;
+  border: 1px solid #999;
+}
+
+.bar text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.rect.MERGED {
+    fill: green;
+}
+.rect.ABANDONED {
+    fill: red;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+div.info {
+    position: fixed;
+}
