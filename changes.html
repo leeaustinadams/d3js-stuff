@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="changes.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Changes</h1>
+    <p>Mobile: Pinch or double tap to zoom, tap for details</p>
+    <p>Desktop: Wheel to zoom, click for details</p>
+    <svg class="chart"></svg>
+    <script type="text/javascript" src="js/underscore-min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script type="text/javascript" src="js/changes.js"></script>
+    <script type="text/javascript">
+      changes().render();
+    </script>
+  </body>
+</html>
